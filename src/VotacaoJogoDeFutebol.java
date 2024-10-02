@@ -7,6 +7,12 @@ public class VotacaoJogoDeFutebol {
         int[] votos = new int [10];
         System.out.print("Digite a quantidade de votantes: ");
         int quantidade = SC.nextInt();
+        int nome = SC.nextInt(4);
+        int mome1TaffismoClub = SC.nextInt();
+        int mome2PatinhoBranquinho = SC.nextInt();
+        int mome3LucasFC = SC.nextInt();
+        int nome4SportsRedes = SC.nextInt();
+
 
         int votoPessoa1 = 10;
         int votoPessoa2 = 20;
@@ -23,5 +29,7 @@ public class VotacaoJogoDeFutebol {
         votos[1] = 60;
         votos[2] = 70;
         votos[3] = 80;
+
     }
+
 }
